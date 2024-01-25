@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+
+.index img{
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 3em;
+    margin-bottom: 0em;
+}
+/* -----Header----- */
+header nav{
+    position: fixed;
+    bottom: 0;
+    background-image: url("../img/menubackground.png");
+    background-size: cover;
+    width: 100vw;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-right: 1.5em;
+    margin-top: 2em;
+}
+
+header ul li img{
+    align-items: center;
+    height: 5em;
+}
+
+/* -----INDEX----- */
+
+.index article {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.index article img {
+    height: 10em;
+    width: 10em;
+    margin-top: 2em;
+}
+
+.index article:nth-last-of-type(1) img {
+    width: 5em;
+    height: 5em;
+    margin-top: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.index article:nth-last-of-type(1) {
+    background-image: url("../img//rozeachtergrond2.svg");
+    width: 100vw;
+    height: 15em;
+}
+
+.index h2 {
+    font-size: 1.4em;
+    font-family: 'Pacifico';
+}
+
+.index p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: -1em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+/* -----FAVO----- */
+
+.favo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favo section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favo section img {
+    width: 20em;
+    height: 20em;
+    margin-bottom: 1em;
+}
+
+.favo section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.favo section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: -1em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.favo section:nth-last-of-type(1) {
+    margin-bottom: 8em;
+}
+
+/* -----VRAAG----- */
+
+.vraag section img {
+    width: 50%;
+    height: 50%;
+}
+
+.vraag section {
+    display: flex;
+}
+
+.vraag section div {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.vraag h2 {
+    font-family: 'Pacifico';
+    font-size: 1.5em;
+}
+
+.vraag p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: -1.2em;
+}
+
+.vraag article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+    margin-top: 1em;
+}
+
+.vraag article img {
+    width: 10em;
+}
